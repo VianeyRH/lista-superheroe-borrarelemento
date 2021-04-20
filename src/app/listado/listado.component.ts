@@ -14,6 +14,6 @@ export class ListadoComponent{
   }
   mostrar():string{
     if(this.elim!="")
-      return this.elim+"Elemento Borrado";
+      return this.elim+" ha sido borrado de la lista";
   }
 }
